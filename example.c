@@ -4,5 +4,5 @@
 int main() {
     int n;
     scanf("%d", &n);
-    printf("%d", std::pow(2, n / 2));
+    printf("%lld", (long long) pow(2, n / 2));
 }
