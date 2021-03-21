@@ -1,8 +1,9 @@
-#include <stdio.h>
+#include <iostream>
 #include <math.h>
 
 int main() {
     int n;
-    scanf("%d", &n);
-    printf("%d", std::pow(2, n / 2));
+    std::cin >> n;
+    std::cout << (long long) pow(2, n / 2);
+    return 0;
 }
